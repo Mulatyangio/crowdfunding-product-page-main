@@ -1,0 +1,32 @@
+body{
+    font-family: sans-serif;
+    display: block;
+    width: 90%;
+    
+
+}
+nav{
+    display: none;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+header a{
+    text-decoration: none;
+    color: white;
+}
+.top-left{
+    position: absolute;
+    top: 8px;
+    left: 16px;
+
+}
+.top-right{
+    gap: 10px;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 8px;
+    right: 16px;
+}
