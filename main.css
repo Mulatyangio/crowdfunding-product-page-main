@@ -13,20 +13,24 @@ body{
     
 }
 .about{
-
     text-align: center;
     width: 700px;
-    margin-left: 200px;
-    
+    margin-left: 300px; 
+}
+#numb{
+    font-size: 30px;
+}
+.mod{
+    width: 900px;
 }
 .button{
     display: flex;
 }
 .numbers{
     display: flex;
-    gap: 8px;
+
     border: lightgrey;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 button{
     margin-bottom: 20px;
